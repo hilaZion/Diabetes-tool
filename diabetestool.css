@@ -1,0 +1,134 @@
+.form-style
+{
+	width: 670px;
+	font: 13px Arial, Helvetica, sana-serif;
+	background: #E8E8E8;
+
+}
+#fname,#lname
+{
+margin-left: 105px;
+
+}
+#title
+{
+margin-left:155px;
+}
+#email
+{
+margin-left: 140px;
+
+}
+#phone
+{
+margin-left: 55px;
+}
+
+
+
+#hidemsg
+{
+font-size: 15px;
+}
+.h
+{
+float:left;
+padding-right: 45px;
+width: 150px;
+font-size: 15px;
+}
+.hi
+{
+float:left;
+padding-right: 10px;
+width: 150px;
+font-size: 15px;
+}
+.hil
+{
+float:left;
+padding-right: 53px;
+width: 150px;
+font-size: 15px;
+}
+.a
+{
+padding-bottom: 30px;
+}
+
+#opta1,#optb1
+{
+margin-right: 58px;
+}
+#optd1
+{
+margin-right: 14px;
+}
+#optfd1
+{
+margin-right: 20px;
+}
+
+#opta2,#optb2
+{
+margin-right: 83px;
+}
+#optd2
+{
+margin-right: 20px;
+}
+#optfd2
+{
+margin-right: 76px;
+}
+
+#opta3,#optb3
+{
+margin-right: 58px;
+}
+#optd3
+{
+margin-right: 20px;
+}
+#optfd3
+{
+margin-right: 42px;
+}
+.cf
+{
+padding-bottom: 18px;
+}
+.cf ,lable
+{
+font-size: 15px;
+}
+
+.error
+{
+color:#FF0000;
+font-size: 12px;
+}
+
+.questionmark {
+	position:relative;
+	background:url(questionmark.jpg) top left no-repeat;
+	padding-left: 15px;
+	margin-right: 5px;
+	
+}
+
+.tooltip {
+	position:absolute;
+	left:35px; 
+	top:145px;
+	display:none;
+	width:125px;
+	background-color:#eeeeee;
+	color: #000000;
+	padding: 12px 10px 30px 10px;
+	background:url(tooltipbg.png) top left no-repeat;
+	font:0.65em Arial, Helvetica, sans-serif;
+}
+
+
+

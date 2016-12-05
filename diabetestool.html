@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript - FMA </title>
+		<link rel="stylesheet" type="text/css" href="diabetestool.css">
+		<script src="diabetestool.js"></script>
+	</head>
+	<body>
+		<h1>Zedland Health Authority</h1>
+		<div class="form-style">
+			<form id="myform">
+			<fieldset>
+			<div class="a">
+				<span class="h">How old are you?</span>
+				<label for="opta1">1-25</label>
+				<input type="radio" checked="checked" name="age" id="opta1" value= 0 />
+				<label for="opta2">26-40</label>
+				<input type="radio" name="age" id="opta2" value= 5 />
+				<label for="opta3">41-60</label>
+				<input type="radio" name="age" id="opta3" value= 8 />
+				<label for="opta4">60+</label>
+				<input type="radio" name="age" id="opta4" value= 10 />
+			</div>	
+			<div class="a">
+				<span class="h">What is your BMI?</span>
+				<label for="optb1">0-25</label>
+				<input type="radio" checked="checked" name="bmi" id="optb1" value= 0 />
+				<label for="optb2">26-30</label>
+				<input type="radio" name="bmi" id="optb2" value= 0 />
+				<label for="optb3">31-35</label>
+				<input type="radio" name="bmi" id="optb3" value= 9 />
+				<label for="optb4">35+</label>
+				<input type="radio" name="bmi" id="optb4" value= 10 />
+			</div>
+			<div class="a">
+				<span class="hil">Does anybody in your family have diabetes?</span>
+				<label for="optfd1">No</label>
+				<input type="radio" checked="checked" name="diabetes" id="optfd1" value= 0 />
+				<label for="optfd2">Grandparent</label>
+				<input type="radio" name="diabetes" id="optfd2" value= 7 />
+				<label for="optfd3">Sibling</label>
+				<input type="radio" name="diabetes" id="optfd3" value= 15 />
+				<label for="optfd4">Parent</label>
+				<input type="radio" name="diabetes" id="optfd4" value= 15 />
+			</div>
+			<div class="a">
+				<span class="hi">How would you describe your diet?</span>
+				<label for="optd1">Low sugar</label>
+				<input type="radio" checked="checked" name="diat" id="optd1" value= 0 />
+				<label for="optd2">Normal sugar</label>
+				<input type="radio" name="diat" id="optd2" value= 0 />
+				<label for="optd3">Quite high sugar</label>
+				<input type="radio" name="diat" id="optd3" value= 7 />
+				<label for="optd4">high sugar</label>
+				<input type="radio" name="diat" id="optd4" value= 10 />
+			</div>
+			<div>            
+				<input type="submit" value="Calculate">
+			</div>
+			<div id="hidemsg"></div>
+		</fieldset>
+		
+	</form>
+	
+		</div>
+		</body>
+</html>

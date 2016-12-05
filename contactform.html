@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript - FMA </title>
+		<link rel="stylesheet" type="text/css" href="diabetestool.css">
+		<script src="contactform.js"></script>
+	</head>
+	<body>
+		<div class="form-style">
+			<form id="mycontactform">
+			
+			<fieldset>
+			<h1>Contact Form</h1>
+			<p><span style=color:red class="required_notification">* Denotes Required Field</span><p>
+			
+				<div class="cf">
+				<label for="fname">First Name:</label>
+				<input type="text" name="fname" id="fname" />
+				<span class="error" id="fname_error">*</span>
+				</div>
+			
+				<div class="cf">
+				<label for="lname">Last Name:</label>
+				<input type="text" name="lname" id="lname"/>
+				<span class="error" id="lname_error">*</span>
+				</div>
+			
+				<div class="cf">
+				<label for="title">Title</label>
+				<select name="title" id="title" >
+				<option value="mr">Mr.</option>
+				<option value="ms">Ms.</option>
+				<option value="mrs">Mrs</option>
+				<option value="miss">Miss</option>
+				<option value="master">Master</option>
+				</select>
+				<span class="error" id="tspan">*</span>
+				</div>
+			
+				<div class="cf">
+				<span class="questionmark" id="qmark"></span>
+				<div class="tooltip" id="ttip">If you do not know your ZHA number, please contact your GP</div>
+				<label for="health">Health Authority Number:</label>
+				<input type="text" name="health" id="health" value=""/>
+				
+				<span class="error" id="health_error">*</span>
+				</div>
+						
+				<div class="cf">
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email"/>
+				<span class="error" id="email_error">*</span>
+				</div>
+			
+				<div class="cf">
+				<label for="phone">Telephone Number:</label>
+				<input type="text" name="phone" id="phone"/>
+				<span class="error" id="phone_error"></span>
+				</div>
+		
+				<div class="cf">
+				<input type="submit" value="Submit">
+				</div>
+			
+		</fieldset>
+	</form>
+	
+		</div>
+		</body>
+</html>
